@@ -95,6 +95,9 @@ cargo run --bin client "Bobrovsky"
 ---
 
 
+## 🎨 Screenshots
+
+![Chat UI Example](Screenshot%202025-05-28%20120507.png) 
 
 
 
