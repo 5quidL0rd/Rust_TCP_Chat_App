@@ -99,7 +99,9 @@ cargo run --bin client "Bobrovsky"
 
 ![Chat UI Example](Screenshot%202025-05-28%20120507.png) 
 
-![Server Starting up in Terminal)(Screenshot%202025-05-28%20120244.png)
+![Server Starting up in Terminal](Screenshot%2025-05-28%120244.png)
+
+
 
 
 
