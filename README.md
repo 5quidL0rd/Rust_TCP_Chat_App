@@ -12,7 +12,11 @@ A space/retro-themed, async TCP chat server and client with a terminal UI, built
 - Message history for new arrivals
 - Simple commands: `/help`, `/clear`, `/quit`, `/funface`
 - Colorful usernames
-- Graceful shutdown process 
+- Graceful shutdown process
+
+Emojify Example:
+
+![Some Emojis](Screenshot%202025-05-28%20124048.png) 
 
 ---
 
