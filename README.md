@@ -69,6 +69,10 @@ cargo run --bin client "Bobrovsky"
 - `/quit`    — Exit chat
 - `/funface` — Show ASCII art
 
+Example:
+
+![ASCII art](Screenshot%202025-05-28%20123715.png) 
+
 ---
 
 
