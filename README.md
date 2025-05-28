@@ -114,10 +114,11 @@ cargo run --bin client "Bobrovsky"
 
 
 
+---
 
+## 🎥 Inspiration
 
+This project was inspired by the following video:[ https://www.youtube.com/watch?v=653rafFNBmA&t=5969s](https://www.youtube.com/watch?v=653rafFNBmA&t=5969s)
+Many thanks to the creator for the excellent walkthrough and ideas!
 
-
-
-
-Inspiration for this project: https://www.youtube.com/watch?v=653rafFNBmA&t=5969s 
+---
