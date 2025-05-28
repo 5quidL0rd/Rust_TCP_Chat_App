@@ -72,6 +72,17 @@ cargo run --bin client "Bobrovsky"
 ---
 
 
+
+---
+
+## 🕑 Message History
+
+- **Automatic Message History:**  
+  When a new client joins the chat, they automatically receive recent message history so they can catch up on the conversation. The server maintains a buffer of recent messages and sends them to each new user upon connection. This ensures everyone is up to speed, even if they join late.
+
+- **Configurable Buffer:**  
+  The number of messages stored in history can be easily adjusted in the server code, allowing you to control how much context new users receive.
+
 ---
 
 ## 🛑 Graceful Shutdown & Robust Error Handling
@@ -109,4 +120,4 @@ cargo run --bin client "Bobrovsky"
 
 
 
-Inspiration: https://www.youtube.com/watch?v=653rafFNBmA&t=5969s 
+Inspiration for this project: https://www.youtube.com/watch?v=653rafFNBmA&t=5969s 
