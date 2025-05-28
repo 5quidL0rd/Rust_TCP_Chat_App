@@ -94,6 +94,13 @@ cargo run --bin client "Bobrovsky"
   The application uses Rust’s robust error handling (`Result`, `?`, and custom messages) to manage network failures, invalid input, and unexpected disconnects. If a client loses connection or sends malformed data, the error is logged and the app continues running for other users.  
   User-friendly error messages are shown in the client UI for common issues (e.g., connection refused, invalid username).
 
+
+  Example:
+
+  ![Server graceful shutdown](Screenshot%202025-05-28%20122849.png)
+
+  ![Chat App shutdown notif](Screenshot%202025-05-28%20122830.png) 
+
 ---
 
 ## 📝 Notes
