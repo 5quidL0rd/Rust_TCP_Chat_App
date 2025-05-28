@@ -83,6 +83,9 @@ cargo run --bin client "Bobrovsky"
 - **Configurable Buffer:**  
   The number of messages stored in history can be easily adjusted in the server code, allowing you to control how much context new users receive.
 
+
+  ![Message History](Screenshot%202025-05-28%20123433.png) 
+
 ---
 
 ## 🛑 Graceful Shutdown & Robust Error Handling
