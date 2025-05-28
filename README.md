@@ -71,6 +71,20 @@ cargo run --bin client "Bobrovsky"
 
 ---
 
+
+---
+
+## 🛑 Graceful Shutdown & Robust Error Handling
+
+- **Graceful Shutdown:**  
+  Both the server and client handle shutdown signals (such as `Ctrl+C`) cleanly. When you stop the server, all connected clients are notified and the server closes all connections without data loss or corruption. The client also exits cleanly when you use `/quit` or close the terminal.
+
+- **Error Handling:**  
+  The application uses Rust’s robust error handling (`Result`, `?`, and custom messages) to manage network failures, invalid input, and unexpected disconnects. If a client loses connection or sends malformed data, the error is logged and the app continues running for other users.  
+  User-friendly error messages are shown in the client UI for common issues (e.g., connection refused, invalid username).
+
+---
+
 ## 📝 Notes
 
 - The server and clients must run on the same machine by default (or edit the IP/port in the code for LAN use).
