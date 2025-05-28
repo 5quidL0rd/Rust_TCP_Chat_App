@@ -99,7 +99,7 @@ cargo run --bin client "Bobrovsky"
 
 ![Chat UI Example](Screenshot%202025-05-28%20120507.png) 
 
-[![Chat UI Example](screenshots/Screenshot%202025-05-28%20120507.png)](screenshots/Screenshot%202025-05-28%20120507.png)
+[![Chat UI Example](Screenshot%202025-05-28%20120507.png)]
 
 
 
