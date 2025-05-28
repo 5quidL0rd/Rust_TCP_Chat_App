@@ -1,0 +1,18 @@
+[package]
+name = "retro-chat-project"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cursive = "0.21"
+tokio = { version = "1", features = ["full"] }
+tokio-rustls = "0.26.2"
+rustls = "0.23"
+rcgen = "0.13" # (optional) for generating self-signed certs
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+chrono = "0.4"
+rand = "0.9.1"
+tokio-native-tls = "0.3"
+native-tls = "0.2"
+
